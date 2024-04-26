@@ -1,409 +1,540 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @media only screen and (max-width: 300px) {
+        table {
+          width: 100% !important;
+        }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <style>
+        img {
+          max-width: 100%;
+          height: auto;
+        }
 
-@media only screen and (max-width: 300px) {
-  table {
-    width: 100% !important;
-  }
+        body {
+          zoom: 1 !important;
+        }
 
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+        td {
+          padding: 5px !important;
+        }
 
-  body {
-    zoom: 1 !important; 
-  }
+        p {
+          font-size: 14px !important;
+        }
 
-  
-  td {
-    padding: 5px !important;
-  }
+        h2 {
+          font-size: 18px !important;
+        }
 
-  p {
-    font-size: 14px !important;
-  }
-
-  h2 {
-    font-size: 18px !important;
-  }
-
-  .tr2 td {
-    padding: 15px !important;
-  }
-}
-
-    @media only screen and (max-width: 600px) {
-      table {
-        width: 100% !important;
+        .tr2 td {
+          padding: 15px !important;
+        }
+        body {
+          zoom: 1 !important;
+        }
       }
 
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-      body{
-        zoom:0.5 !important;
-      }
-    }
-  </style>
-</head>
+      @media only screen and (max-width: 600px) {
+        table {
+          width: 100% !important;
+        }
 
-<body style="margin: 0; padding: 0; border: 0">
-  <table cellspacing="0" cellpadding="0" align="center" style="
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+        body {
+          zoom: 0.5 !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body style="margin: 0; padding: 0; border: 0">
+    <table
+      cellspacing="0"
+      cellpadding="0"
+      align="center"
+      style="
         font-family: Arial, Helvetica, sans-serif;
         max-width: 600px;
         width: 100%;
         background-color: aliceblue;
-      ">
-    <!-- Header -->
-    <tr>
-      <td style="text-align: left">
-        <a target="_blank" href="https://www.astiinfotech.com/trakom/">
-          <img src="https://storage.googleapis.com/astiinfotech/trakom-april/trakom-logo.png" alt="Trakom Logo"
-            class="rounded" />
-        </a>
-      </td>
-      <td style="padding: 10px 20px; text-align: right">
-        <a target="_blank" href="https://www.facebook.com/Trakomofficial"><img width="35" style="margin-left: 5px"
-            src="https://storage.googleapis.com/astiinfotech/trakom-april/facebook.png" alt="Facebook Logo" /></a><a
-          target="_blank" href="https://www.instagram.com/trakom_schoolsecuritysolution/"><img width="35"
-            style="margin-left: 5px" src="https://storage.googleapis.com/astiinfotech/trakom-april/instagram.png"
-            alt="Instagram Logo" /></a><a target="_blank"
-          href="https://www.linkedin.com/showcase/10673596/admin/feed/posts/"><img width="35" style="margin-left: 5px"
-            src="https://storage.googleapis.com/astiinfotech/trakom-april/linkedin.png" alt="Linkedin Logo" /></a><a
-          target="_blank" href="https://twitter.com/Trakom_asti"><img width="35" style="margin-left: 5px"
-            src="https://storage.googleapis.com/astiinfotech/trakom-april/twitter.png" alt="Linkedin Logo" /></a>
-      </td>
+      "
+    >
+      <!-- Header -->
+      <tr>
+        <td style="text-align: left">
+          <a target="_blank" href="https://www.astiinfotech.com/trakom/">
+            <img
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/trakom-logo.png"
+              alt="Trakom Logo"
+              class="rounded"
+            />
+          </a>
+        </td>
+        <td style="padding: 10px 20px; text-align: right">
+          <a target="_blank" href="https://www.facebook.com/Trakomofficial"
+            ><img
+              width="35"
+              style="margin-left: 5px"
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/facebook.png"
+              alt="Facebook Logo" /></a
+          ><a
+            target="_blank"
+            href="https://www.instagram.com/trakom_schoolsecuritysolution/"
+            ><img
+              width="35"
+              style="margin-left: 5px"
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/instagram.png"
+              alt="Instagram Logo" /></a
+          ><a
+            target="_blank"
+            href="https://www.linkedin.com/showcase/10673596/admin/feed/posts/"
+            ><img
+              width="35"
+              style="margin-left: 5px"
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/linkedin.png"
+              alt="Linkedin Logo" /></a
+          ><a target="_blank" href="https://twitter.com/Trakom_asti"
+            ><img
+              width="35"
+              style="margin-left: 5px"
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/twitter.png"
+              alt="Linkedin Logo"
+          /></a>
+        </td>
+      </tr>
+      <!-- Header -->
 
-
-
-    </tr>
-    <!-- Header -->
-
-    <!-- main heading -->
-    <tr>
-      <td colspan="2" style="
+      <!-- main heading -->
+      <tr>
+        <td
+          colspan="2"
+          style="
             text-align: center;
             padding: 0 20px;
             font-size: 30px;
             line-height: 1.5;
             font-weight: 600;
-          ">
-        <p>Enhance Student Safety with Trakom's Real-Time Notifications!</p>
-      </td>
-    </tr>
-    <!-- main heading -->
+          "
+        >
+          <p>Enhance Student Safety with Trakom's Real-Time Notifications!</p>
+        </td>
+      </tr>
+      <!-- main heading -->
 
-    <!-- para1 -->
-    <tr>
-      <td style="padding: 0 30px; text-align: center; width: 50%">
-        <p style="text-align: justify; font-size: 18px; line-height: 1.5">
-          <strong> Dear School, </strong>
-          As you prepare for the upcoming academic year, optimizing efficiency
-          in student transportation management is essential.
-          <a target="_blank" href="https://www.astiinfotech.com/trakom/">Trakom's School Bus Tracking Solution</a>
-          offers a range of features designed to streamline operations and
-          enhance student safety.
-        </p>
-        <a style="
-          mso-style-priority: 100 !important;
-          text-decoration: none;
-          -webkit-text-size-adjust: none;
-          -ms-text-size-adjust: none;
-          mso-line-height-rule: exactly;
-          color: #ffffff;
-          font-size: 14px;
-          display: inline-block;
-          background: #3bc6e9;
-          font-family: arial, 'helvetica neue', helvetica, sans-serif;
-          font-weight: bold;
-          font-style: normal;
-          line-height: 14px;
-          width: auto;
-          text-align: center;
-          padding: 10px 25px 10px 25px;
-          mso-padding-alt: 0;
-          mso-border-alt: 10px solid #3bc6e9;
-          border-radius: 10px; /* Standard CSS for modern email clients */
-      " target="_blank" href="https://www.astiinfotech.com/contact-us/">Get Your Free Trial Now</a>
-      </td>
-      <td style="text-align: center">
-        <a target="_blank" href="https://www.astiinfotech.com/trakom/"><img style="max-width: 180px"
-            src="https://storage.googleapis.com/astiinfotech/trakom-april/Trakom-mobile.png" alt="Trakom Mobile" /></a>
-      </td>
-    </tr>
-    <!-- para1 -->
+      <!-- para1 -->
+      <tr>
+        <td style="padding: 0 30px; text-align: center; width: 50%">
+          <p style="text-align: justify; font-size: 18px; line-height: 1.5">
+            <strong> Dear School, </strong>
+            As you prepare for the upcoming academic year, optimizing efficiency
+            in student transportation management is essential.
+            <a target="_blank" href="https://www.astiinfotech.com/trakom/"
+              >Trakom's School Bus Tracking Solution</a
+            >
+            offers a range of features designed to streamline operations and
+            enhance student safety.
+          </p>
+          <a
+            style="
+              mso-style-priority: 100 !important;
+              text-decoration: none;
+              -webkit-text-size-adjust: none;
+              -ms-text-size-adjust: none;
+              mso-line-height-rule: exactly;
+              color: #ffffff;
+              font-size: 14px;
+              display: inline-block;
+              background: #3bc6e9;
+              font-family: arial, 'helvetica neue', helvetica, sans-serif;
+              font-weight: bold;
+              font-style: normal;
+              line-height: 14px;
+              width: auto;
+              text-align: center;
+              padding: 10px 25px 10px 25px;
+              mso-padding-alt: 0;
+              mso-border-alt: 10px solid #3bc6e9;
+              border-radius: 10px; /* Standard CSS for modern email clients */
+            "
+            target="_blank"
+            href="https://www.astiinfotech.com/contact-us/"
+            >Get Your Free Trial Now</a
+          >
+        </td>
+        <td style="text-align: center">
+          <a target="_blank" href="https://www.astiinfotech.com/trakom/"
+            ><img
+              style="max-width: 180px"
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/Trakom-mobile.png"
+              alt="Trakom Mobile"
+          /></a>
+        </td>
+      </tr>
+      <!-- para1 -->
 
-    <!-- heading 2 -->
-    <tr>
-      <td colspan="2" style="text-align: center; padding: 0 30px">
-        <h2 style="font-size: 22px; line-height: 1.5">
-          Today, we're excited to showcase one of the most essential safety
-          features!
-        </h2>
-      </td>
-    </tr>
-    <!-- heading 2 -->
+      <!-- heading 2 -->
+      <tr>
+        <td colspan="2" style="text-align: center; padding: 0 30px">
+          <h2 style="font-size: 22px; line-height: 1.5">
+            Today, we're excited to showcase one of the most essential safety
+            features!
+          </h2>
+        </td>
+      </tr>
+      <!-- heading 2 -->
 
-    <!-- features -->
-    <tr>
-      <td style="
+      <!-- features -->
+      <tr>
+        <td
+          style="
             text-align: center;
             font-size: 18px;
             line-height: 1.5;
             padding: 0 30px;
-          ">
-        <p style="text-align: center">
-          <strong> Real Time Notifications </strong>
-        </p>
-        <p style="text-align: justify">
-          Trakom App ensures instant notifications for pick-up/drop-off,
-          ensuring timely updates for parents and administrators.
-        </p>
-      </td>
-      <td>
-        <a target="_blank" href="https://www.astiinfotech.com/trakom/">
-          <img src="https://storage.googleapis.com/astiinfotech/trakom-april/Notifications.png" alt="img"
-            class="rounded" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a target="_blank" href="https://www.astiinfotech.com/trakom/">
-          <img src="https://storage.googleapis.com/astiinfotech/trakom-april/Alerts.png" alt="img" class="rounded" />
-        </a>
-      </td>
-      <td style="
+          "
+        >
+          <p style="text-align: center">
+            <strong> Real Time Notifications </strong>
+          </p>
+          <p style="text-align: justify">
+            Trakom App ensures instant notifications for pick-up/drop-off,
+            ensuring timely updates for parents and administrators.
+          </p>
+        </td>
+        <td>
+          <a target="_blank" href="https://www.astiinfotech.com/trakom/">
+            <img
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/Notifications.png"
+              alt="img"
+              class="rounded"
+            />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a target="_blank" href="https://www.astiinfotech.com/trakom/">
+            <img
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/Alerts.png"
+              alt="img"
+              class="rounded"
+            />
+          </a>
+        </td>
+        <td
+          style="
             text-align: center;
             font-size: 18px;
             line-height: 1.5;
             padding: 0 30px;
-          ">
-        <p style="text-align: center">
-          <strong> Admin Alerts </strong>
-        </p>
-        <p style="text-align: justify">
-          Additionally, you'll stay informed of any critical events, such as
-          unplanned routes or over-speeding, empowering you to take proactive
-          measures to ensure the safety and wellbeing of your students.
-        </p>
-      </td>
-    </tr>
-    <!-- features -->
+          "
+        >
+          <p style="text-align: center">
+            <strong> Admin Alerts </strong>
+          </p>
+          <p style="text-align: justify">
+            Additionally, you'll stay informed of any critical events, such as
+            unplanned routes or over-speeding, empowering you to take proactive
+            measures to ensure the safety and wellbeing of your students.
+          </p>
+        </td>
+      </tr>
+      <!-- features -->
 
-    <!-- heading 3 and demo buttons -->
-    <tr>
-      <td colspan="2" style="
+      <!-- heading 3 and demo buttons -->
+      <tr>
+        <td
+          colspan="2"
+          style="
             text-align: center;
             font-size: 20px;
             line-height: 1.5;
             padding: 0 30px;
-          ">
-        <p style="text-align: justify; color: blue">
-          Ready to take control of your school's transportation management?
-          Schedule a demo with us today and discover how Trakom can help you
-          optimize efficiency and enhance student safety!
-        </p>
-        <p>
-          <a style="
-            mso-style-priority: 100 !important;
-            text-decoration: none;
-            -webkit-text-size-adjust: none;
-            -ms-text-size-adjust: none;
-            mso-line-height-rule: exactly;
-            color: #ffffff;
-            font-size: 14px;
-            display: inline-block;
-            background: #3bc6e9;
-            font-family: arial, 'helvetica neue', helvetica, sans-serif;
-            font-weight: bold;
-            font-style: normal;
-            line-height: 14px;
-            width: auto;
-            text-align: center;
-            padding: 10px 25px 10px 25px;
-            mso-padding-alt: 0;
-            mso-border-alt: 10px solid #3bc6e9;
-            border-radius: 10px; /* Standard CSS for modern email clients */
-        " target="_blank" href="https://www.astiinfotech.com/contact-us/">Schedule a Demo</a>
-          <a style="
-            mso-style-priority: 100 !important;
-            text-decoration: none;
-            -webkit-text-size-adjust: none;
-            -ms-text-size-adjust: none;
-            mso-line-height-rule: exactly;
-            color: #ffffff;
-            font-size: 14px;
-            display: inline-block;
-            background: #3bc6e9;
-            font-family: arial, 'helvetica neue', helvetica, sans-serif;
-            font-weight: bold;
-            font-style: normal;
-            line-height: 14px;
-            width: auto;
-            text-align: center;
-            padding: 10px 25px 10px 25px;
-            mso-padding-alt: 0;
-            mso-border-alt: 10px solid #3bc6e9;
-            border-radius: 10px; /* Standard CSS for modern email clients */
-        " target="_blank" href="https://www.astiinfotech.com/contact-us/">Get in Touch</a>
-        </p>
-      </td>
-    </tr>
-    <!-- heading 3 and demo buttons -->
+          "
+        >
+          <p style="text-align: justify; color: blue">
+            Ready to take control of your school's transportation management?
+            Schedule a demo with us today and discover how Trakom can help you
+            optimize efficiency and enhance student safety!
+          </p>
+          <p>
+            <a
+              style="
+                mso-style-priority: 100 !important;
+                text-decoration: none;
+                -webkit-text-size-adjust: none;
+                -ms-text-size-adjust: none;
+                mso-line-height-rule: exactly;
+                color: #ffffff;
+                font-size: 14px;
+                display: inline-block;
+                background: #3bc6e9;
+                font-family: arial, 'helvetica neue', helvetica, sans-serif;
+                font-weight: bold;
+                font-style: normal;
+                line-height: 14px;
+                width: auto;
+                text-align: center;
+                padding: 10px 25px 10px 25px;
+                mso-padding-alt: 0;
+                mso-border-alt: 10px solid #3bc6e9;
+                border-radius: 10px; /* Standard CSS for modern email clients */
+              "
+              target="_blank"
+              href="https://www.astiinfotech.com/contact-us/"
+              >Schedule a Demo</a
+            >
+            <a
+              style="
+                mso-style-priority: 100 !important;
+                text-decoration: none;
+                -webkit-text-size-adjust: none;
+                -ms-text-size-adjust: none;
+                mso-line-height-rule: exactly;
+                color: #ffffff;
+                font-size: 14px;
+                display: inline-block;
+                background: #3bc6e9;
+                font-family: arial, 'helvetica neue', helvetica, sans-serif;
+                font-weight: bold;
+                font-style: normal;
+                line-height: 14px;
+                width: auto;
+                text-align: center;
+                padding: 10px 25px 10px 25px;
+                mso-padding-alt: 0;
+                mso-border-alt: 10px solid #3bc6e9;
+                border-radius: 10px; /* Standard CSS for modern email clients */
+              "
+              target="_blank"
+              href="https://www.astiinfotech.com/contact-us/"
+              >Get in Touch</a
+            >
+          </p>
+        </td>
+      </tr>
+      <!-- heading 3 and demo buttons -->
 
-    <!-- sale -->
-    <tr>
-      <td colspan="2">
-        <a target="_blank" href="https://www.astiinfotech.com/contact-us/">
-          <img src="https://storage.googleapis.com/astiinfotech/trakom-april/offer.jpg" alt="img">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="padding: 0 30px; text-align: center; margin: 0">
-        <p style="font-size: 18px; line-height: 1.5">
-          We are giving away Flat 25% off on yearly billings. Connect with us
-          to redeem offer now!
-        </p>
-        <a style="
-          mso-style-priority: 100 !important;
-          text-decoration: none;
-          -webkit-text-size-adjust: none;
-          -ms-text-size-adjust: none;
-          mso-line-height-rule: exactly;
-          color: #ffffff;
-          font-size: 14px;
-          display: inline-block;
-          background: #3bc6e9;
-          font-family: arial, 'helvetica neue', helvetica, sans-serif;
-          font-weight: bold;
-          font-style: normal;
-          line-height: 14px;
-          width: auto;
-          text-align: center;
-          padding: 10px 25px 10px 25px;
-          mso-padding-alt: 0;
-          mso-border-alt: 10px solid #3bc6e9;
-          border-radius: 10px; /* Standard CSS for modern email clients */
-      " target="_blank" href="https://www.astiinfotech.com/contact-us/">Contact Us</a>
-        <a style="
-          mso-style-priority: 100 !important;
-          text-decoration: none;
-          -webkit-text-size-adjust: none;
-          -ms-text-size-adjust: none;
-          mso-line-height-rule: exactly;
-          color: #ffffff;
-          font-size: 14px;
-          display: inline-block;
-          background: #3bc6e9;
-          font-family: arial, 'helvetica neue', helvetica, sans-serif;
-          font-weight: bold;
-          font-style: normal;
-          line-height: 14px;
-          width: auto;
-          text-align: center;
-          padding: 10px 25px 10px 25px;
-          mso-padding-alt: 0;
-          mso-border-alt: 10px solid #3bc6e9;
-          border-radius: 10px; /* Standard CSS for modern email clients */
-      " target="_blank" href="https://www.astiinfotech.com/contact-us/">Get 25% Off</a>
-      </td>
-    </tr>
-    <!-- sale -->
-
-    <!-- Regards Note -->
-    <tr>
-      <td colspan="2" style="padding: 0 30px; padding-top: 20px">
-        <p>
-          Regards,
-          <a target="_blank" style="
-                  text-decoration: none;
-                  color: red;
-                  font-weight: 600;
-                  display: block;
-                  margin-top: 10px;
-                " href="https://www.astiinfotech.com/">Asti Infotech</a>
-        </p>
-
-        <p style="text-align: justify; padding: 0 40px; font-size: 14px">
-          At Asti, we are committed to creating solutions that simplify the
-          lives of our customers and clients by using the power of technology
-          and ideas.
-        </p>
-      </td>
-    </tr>
-    <!-- Regards Note -->
-
-    <!-- Footer -->
-    <tr class="tr1" style="background-color: #000000;">
-      <td style="text-align: left; padding: 10px 20px;">
-        <a target="_blank" href="https://www.astiinfotech.com/">
-          <img width="200" src="https://storage.googleapis.com/astiinfotech/trakom-april/asti-logo-white.png"
-            alt="Asti Logo" />
-        </a>
-      </td>
-      <td style="padding: 10px 20px; text-align: right;">
-        <a target="_blank" href="https://www.facebook.com/astiinfotech1"><img width="35" style="margin-left: 5px"
-            src="https://storage.googleapis.com/astiinfotech/trakom-april/facebook-white.png" alt="Facebook Logo" /></a>
-        <a target="_blank" href="https://www.instagram.com/astiinfotech/"><img width="35" style="margin-left: 5px"
-            src="https://storage.googleapis.com/astiinfotech/trakom-april/instagram-white.png"
-            alt="Instagram Logo" /></a>
-        <a target="_blank" href="https://www.linkedin.com/company/asti-infotech-pvt-ltd/mycompany/"><img width="35"
-            style="margin-left: 5px" src="https://storage.googleapis.com/astiinfotech/trakom-april/linkedin-white.png"
-            alt="Linkedin Logo" /></a>
-        <a target="_blank" href="https://twitter.com/Astiinfotech"><img width="35" style="margin-left: 5px"
-            src="https://storage.googleapis.com/astiinfotech/trakom-april/twitter-white.png" alt="Linkedin Logo" /></a>
-      </td>
-    </tr>
-
-    <tr class="tr2" style="background-color: #000000;">
-      <td style="padding: 30px; text-align: center; font-size: 12px;">
-        <a target="_blank" style="color: #ffffff; text-decoration: none"
-          href="https://www.astiinfotech.com/Contact-us/">Manjunath Kannika, No. 90, 2nd Main, Electronic City - Phase
-          I, Bangalore - 560100</a>
-      </td>
-      <td style="text-align: right; padding: 30px 20px;">
-        <a style="text-decoration: none; color: #ffffff; margin-left: 10px" href="tel:%20+91789%20919082"><img
-            width="35" src="https://storage.googleapis.com/astiinfotech/trakom-april/call-white.png" alt="" /></a>
-        <a style="text-decoration: none; color: #ffffff; margin-left: 10px" href="mailto:info@astiinfotech.com"><img
-            width="35" src="https://storage.googleapis.com/astiinfotech/trakom-april/email-white.png" alt="" /></a>
-        <a style="text-decoration: none; color: #ffffff; margin-left: 10px" href="tel:+919632017370"><img width="35"
-            src="https://storage.googleapis.com/astiinfotech/trakom-april/phone-white.png" alt="" /></a>
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="2" style="
-              text-align: center;
-              background-color: #000000;
-              padding: 0 5px;
-            ">
-        <a target="_blank" style="text-decoration: none; color: #ffffff"
-          href="https://www.astiinfotech.com/Privacy-policy/">Privacy Policy</a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="
-              text-align: center;
-              background-color: #000000;
+      <!-- sale -->
+      <tr>
+        <td colspan="2">
+          <a target="_blank" href="https://www.astiinfotech.com/contact-us/">
+            <img
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/offer.jpg"
+              alt="img"
+            />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="padding: 0 30px; text-align: center; margin: 0">
+          <p style="font-size: 18px; line-height: 1.5">
+            We are giving away Flat 25% off on yearly billings. Connect with us
+            to redeem offer now!
+          </p>
+          <a
+            style="
+              mso-style-priority: 100 !important;
+              text-decoration: none;
+              -webkit-text-size-adjust: none;
+              -ms-text-size-adjust: none;
+              mso-line-height-rule: exactly;
               color: #ffffff;
               font-size: 14px;
-            ">
-        <hr />
-        <p>&copy; All Rights Reserved, Asti Infotech</p>
-      </td>
-    </tr>
-    <!-- Footer -->
-  </table>
-</body>
+              display: inline-block;
+              background: #3bc6e9;
+              font-family: arial, 'helvetica neue', helvetica, sans-serif;
+              font-weight: bold;
+              font-style: normal;
+              line-height: 14px;
+              width: auto;
+              text-align: center;
+              padding: 10px 25px 10px 25px;
+              mso-padding-alt: 0;
+              mso-border-alt: 10px solid #3bc6e9;
+              border-radius: 10px; /* Standard CSS for modern email clients */
+            "
+            target="_blank"
+            href="https://www.astiinfotech.com/contact-us/"
+            >Contact Us</a
+          >
+          <a
+            style="
+              mso-style-priority: 100 !important;
+              text-decoration: none;
+              -webkit-text-size-adjust: none;
+              -ms-text-size-adjust: none;
+              mso-line-height-rule: exactly;
+              color: #ffffff;
+              font-size: 14px;
+              display: inline-block;
+              background: #3bc6e9;
+              font-family: arial, 'helvetica neue', helvetica, sans-serif;
+              font-weight: bold;
+              font-style: normal;
+              line-height: 14px;
+              width: auto;
+              text-align: center;
+              padding: 10px 25px 10px 25px;
+              mso-padding-alt: 0;
+              mso-border-alt: 10px solid #3bc6e9;
+              border-radius: 10px; /* Standard CSS for modern email clients */
+            "
+            target="_blank"
+            href="https://www.astiinfotech.com/contact-us/"
+            >Get 25% Off</a
+          >
+        </td>
+      </tr>
+      <!-- sale -->
 
+      <!-- Regards Note -->
+      <tr>
+        <td colspan="2" style="padding: 0 30px; padding-top: 20px">
+          <p>
+            Regards,
+            <a
+              target="_blank"
+              style="
+                text-decoration: none;
+                color: red;
+                font-weight: 600;
+                display: block;
+                margin-top: 10px;
+              "
+              href="https://www.astiinfotech.com/"
+              >Asti Infotech</a
+            >
+          </p>
+
+          <p style="text-align: justify; padding: 0 40px; font-size: 14px">
+            At Asti, we are committed to creating solutions that simplify the
+            lives of our customers and clients by using the power of technology
+            and ideas.
+          </p>
+        </td>
+      </tr>
+      <!-- Regards Note -->
+
+      <!-- Footer -->
+      <tr class="tr1" style="background-color: #000000">
+        <td style="text-align: left; padding: 10px 20px">
+          <a target="_blank" href="https://www.astiinfotech.com/">
+            <img
+              width="200"
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/asti-logo-white.png"
+              alt="Asti Logo"
+            />
+          </a>
+        </td>
+        <td style="padding: 10px 20px; text-align: right">
+          <a target="_blank" href="https://www.facebook.com/astiinfotech1"
+            ><img
+              width="35"
+              style="margin-left: 5px"
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/facebook-white.png"
+              alt="Facebook Logo"
+          /></a>
+          <a target="_blank" href="https://www.instagram.com/astiinfotech/"
+            ><img
+              width="35"
+              style="margin-left: 5px"
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/instagram-white.png"
+              alt="Instagram Logo"
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/asti-infotech-pvt-ltd/mycompany/"
+            ><img
+              width="35"
+              style="margin-left: 5px"
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/linkedin-white.png"
+              alt="Linkedin Logo"
+          /></a>
+          <a target="_blank" href="https://twitter.com/Astiinfotech"
+            ><img
+              width="35"
+              style="margin-left: 5px"
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/twitter-white.png"
+              alt="Linkedin Logo"
+          /></a>
+        </td>
+      </tr>
+
+      <tr class="tr2" style="background-color: #000000">
+        <td style="padding: 30px; text-align: center; font-size: 12px">
+          <a
+            target="_blank"
+            style="color: #ffffff; text-decoration: none"
+            href="https://www.astiinfotech.com/Contact-us/"
+            >Manjunath Kannika, No. 90, 2nd Main, Electronic City - Phase I,
+            Bangalore - 560100</a
+          >
+        </td>
+        <td style="text-align: right; padding: 30px 20px">
+          <a
+            style="text-decoration: none; color: #ffffff; margin-left: 10px"
+            href="tel:%20+91789%20919082"
+            ><img
+              width="35"
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/call-white.png"
+              alt=""
+          /></a>
+          <a
+            style="text-decoration: none; color: #ffffff; margin-left: 10px"
+            href="mailto:info@astiinfotech.com"
+            ><img
+              width="35"
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/email-white.png"
+              alt=""
+          /></a>
+          <a
+            style="text-decoration: none; color: #ffffff; margin-left: 10px"
+            href="tel:+919632017370"
+            ><img
+              width="35"
+              src="https://storage.googleapis.com/astiinfotech/trakom-april/phone-white.png"
+              alt=""
+          /></a>
+        </td>
+      </tr>
+
+      <tr>
+        <td
+          colspan="2"
+          style="text-align: center; background-color: #000000; padding: 0 5px"
+        >
+          <a
+            target="_blank"
+            style="text-decoration: none; color: #ffffff"
+            href="https://www.astiinfotech.com/Privacy-policy/"
+            >Privacy Policy</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td
+          colspan="2"
+          style="
+            text-align: center;
+            background-color: #000000;
+            color: #ffffff;
+            font-size: 14px;
+          "
+        >
+          <hr />
+          <p>&copy; All Rights Reserved, Asti Infotech</p>
+        </td>
+      </tr>
+      <!-- Footer -->
+    </table>
+  </body>
 </html>
