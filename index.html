@@ -6,6 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
   <style>
+
+@media only screen and (max-width: 300px) {
+  table {
+    width: 100% !important;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  body {
+    zoom: 1 !important; /* Resetting zoom */
+  }
+
+  /* Adjust padding and font size for smaller screens */
+  td {
+    padding: 5px !important;
+  }
+
+  p {
+    font-size: 14px !important;
+  }
+
+  h2 {
+    font-size: 18px !important;
+  }
+
+  /* Adjust padding for footer */
+  .tr2 td {
+    padding: 15px !important;
+  }
+}
+
     @media only screen and (max-width: 600px) {
       table {
         width: 100% !important;
@@ -14,6 +48,9 @@
       img {
         max-width: 100%;
         height: auto;
+      }
+      body{
+        zoom:0.5 !important;
       }
     }
   </style>
